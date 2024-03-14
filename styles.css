@@ -1,0 +1,23 @@
+body{
+	background-color: #234975;
+	font-family: "Courier New" : monospace;
+}
+
+.center-area{
+	width :50%;
+	background-color: #007899;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+}
+
+.center-area h1{
+	width:120%;
+	margin-left:-10%;
+}
+
+.main-title{
+	background-color: #234975;
+}
