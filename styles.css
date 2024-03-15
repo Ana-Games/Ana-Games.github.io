@@ -1,44 +1,63 @@
 body{
 	background-color: #234975;
 	font-family: monospace;
+	text-wrap:stable;
 }
 
 .center-area{
-	width :75%;
+	/*border: solid white 3px;*/
+	width :80%;
 	background-color: #007899;
 	padding: 10px;
 	border-radius: 10px;
 	text-align: center;
 	margin: 0 auto;
 	color: white;
-	border: white;
+	
+	margin-bottom:5px;
 }
 
-.center-area h1{
+.center-area .main-title{
 	width:120%;
 	margin-left:-10%;
+	margin-top:20px;
+	padding-bottom:5px;
+	padding-top:5px;
+	
+	background-color: #234975;
+}
+
+.center-area .sub-title{
+	width:40%;
+	margin:0 auto;
+	margin-top:15px;
+	padding-bottom:5px;
+	padding-top:5px;
+	font-size:20px;
+	
+	border-radius:10px;
+	background-color: #234975;
 }
 
 .center-area p{
 	font-size: 15px;
-	padding-left: 7%;
-	padding-right: 7%;
-}
-
-.center-area center-right {
-	float:right;
+	padding-left: 4%;
+	padding-right: 4%;
 }
 
 .showcase{
 	margin: auto;
+	margin-bottom:40px;
+	margin-top:40px;
 	padding: 10px;
 	width: 90%;
 	
 	background-color:#234975;
 	border-radius: 10px;
-	height:180px;
+	/*height:180px;*/
 	padding-top:0px;
 	padding-bottom:0px;
+	border: solid white 3px;
 	
 	display: flex;
 }
@@ -48,17 +67,34 @@ body{
 	margin-top:-15px;
 	text-align:left;
     float: right;
-	max-height:180px;
+	/*max-height:180px;*/
+	width:100%;
   }
+ 
+ .showcase .text hr{
+	 margin-top:-15px;
+	 width: 100%;
+	 margin-left:10px;
+	 border: 0 none;
+	 border-bottom: 3px solid white;
+ }
+ 
+ .showcase .text .showcase-title{
+	font-size:24px;
+	text-wrap:nowrap;
+	font-weight:800;
+ }
 
 .showcase img{
-	width: 320px;
-    height:180px;
+	max-width: 320px;
+    max-height:180px;
     float: left;
 	align-self:left;
-	margin-left:10px;
-}
-
-.main-title{
-	background-color: #234975;
+	
+	margin-left:-13px;
+	margin-bottom:-3px;
+	margin-top:-3px;
+	
+	border: 3px solid white;
+	border-radius:6px;
 }
