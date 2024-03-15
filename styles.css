@@ -40,7 +40,7 @@ body{
 }
 
 .center-area p{
-	font-size: 15px;
+	font-size: 1em;
 	padding-left: 4%;
 	padding-right: 4%;
 }
@@ -86,8 +86,8 @@ body{
  }
 
 .showcase img{
-	max-width: 320px;
-    max-height:180px;
+	max-width: 250px;
+	max-height:100%;
     float: left;
 	align-self:left;
 	
