@@ -14,6 +14,17 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
+iframe{
+	border:solid #234975 2px;
+	border-radius:10px;
+	transition:transform .2s;
+}
+
+iframe:hover{
+	transform: scale(1.1);
+	border-color:white;
+}
+
 .center-area{
 	/*border: solid white 3px;*/
 	width :80%;
