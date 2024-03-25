@@ -26,7 +26,7 @@ iframe:hover{
 }
 
 .center-area{
-	/*border: solid white 3px;*/
+	border: solid black 5px;
 	width :80%;
 	background-color: #007899;
 	padding: 10px;
@@ -34,8 +34,12 @@ iframe:hover{
 	text-align: center;
 	margin: 0 auto;
 	color: white;
+	transition:transform .2s;
 	
-	margin-bottom:5px;
+	margin-bottom:25px;
+}
+.center-area:hover{
+	transform: scale(1.01);
 }
 
 .center-area .main-title{
@@ -62,7 +66,7 @@ iframe:hover{
 }
 
 .center-area p{
-	font-size: 1em;
+	font-size: 1vm;
 	padding-left: 4%;
 	padding-right: 4%;
 }
@@ -76,7 +80,7 @@ iframe:hover{
 	
 	background-color:#234975;
 	border-radius: 10px;
-	/*height:180px;*/
+	height:180px;
 	padding-top:0px;
 	padding-bottom:0px;
 	border: none;
@@ -97,7 +101,7 @@ iframe:hover{
     margin-left:-10px;
 	margin-top:-15px;
 	text-align:left;
-	font-size: 1vw;
+	font-size: 1em;
     float: right;
 	/*max-height:180px;*/
 	width:100%;
@@ -118,9 +122,10 @@ iframe:hover{
  }
 
 .showcase img{
-	max-width: 250px;
+	width: 250px;
 	max-height:100%;
     float: left;
+	object-fit: cover;
 	align-self:left;
 	
 	margin-left:-13px;
