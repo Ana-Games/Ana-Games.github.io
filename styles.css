@@ -1,5 +1,4 @@
 body{
-	/*background-color: #234975;*/
 	font-family: monospace;
 	text-wrap:stable;
 	font-size:15px;
@@ -29,19 +28,22 @@ iframe:hover{
 	border:solid #16171a 3px;
 }
 
+/*Center Area*/
+
 .center-area{
-	border: solid #16171a 4px;
 	width :80%;
+	margin: 0 auto;
+	margin-bottom:25px;
+	
+	border: solid #16171a 4px;
 	background-color: #007899;
 	padding: 10px;
 	border-radius: 10px;
-	text-align: center;
-	margin: 0 auto;
-	color: white;
-	transition:transform .2s;
-	font-size:1em;
 	
-	margin-bottom:25px;
+	color: white;
+	text-align: center;
+	
+	transition:transform .2s;
 }
 .center-area:hover{
 	transform: scale(1.01);
@@ -71,10 +73,12 @@ iframe:hover{
 }
 
 .center-area p{
-	font-size: 1vm;
+	font-size: 1em;
 	padding-left: 4%;
 	padding-right: 4%;
 }
+
+/* Showcase */
 
 .showcase{
 	margin: auto;
@@ -148,6 +152,8 @@ iframe:hover{
 	margin-top:-3px;
 	filter: saturate(1.3);
 }
+
+/* Return Button */
 
 .return_button{
 	text-align:center;
