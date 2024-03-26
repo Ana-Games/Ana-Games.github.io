@@ -2,6 +2,7 @@ body{
 	font-family: monospace;
 	text-wrap:stable;
 	font-size:15px;
+	text-size-adjust: none;
 }
 
 #default_background {
