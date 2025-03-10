@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stat Builder</title>
+	<link href="../styles.css" rel="stylesheet" type="text/css">
+	<script src="mc_stats.js"></script>
+	<link rel="icon" type="image/x-icon" href="../images/icon.png">
+</head>
+<body class="crt">
+	<h1>Minecraft Stat Builder</h1>
+	<form>
+		<label for="mcname">Enter your username:</label>
+		<input type="text" id="mcname" name="mcname"><br><br>
+	</form>
+	
+	<p id="points">Your Points: <b>10</b></p>
+	
+	<table>
+		<tr>
+			<td>Attack Damage</td>
+			<td><button id="dmg" onclick="update_damage_points(-1)"><</button>
+			<td id="dmg_points">5</td>
+			<td><button id="dmg" onclick="update_damage_points(1)">></button></td></td>
+		</tr>
+		
+		<tr>
+			<td>Attack Speed</td>
+			<td><button id="atk_speed" onclick="update_attack_speed_points(-1)"><</button>
+			<td id="atk_speed_points">5</td>
+			<td><button id="atk_speed" onclick="update_attack_speed_points(1)">></button></td></td>
+		</tr>
+		
+		<tr>
+			<td>Knockback</td>
+			<td><button id="kb" onclick="update_knockback_points(-1)"><</button>
+			<td id="kb_points">5</td>
+			<td><button id="kb" onclick="update_knockback_points(1)">></button></td></td>
+		</tr>
+		
+		<tr>
+			<td>Range</td>
+			<td><button id="range" onclick="update_range_points(-1)"><</button>
+			<td id="range_points">5</td>
+			<td><button id="range" onclick="update_range_points(1)">></button></td></td>
+		</tr>
+		
+		<tr>
+			<td>Mining Speed</td>
+			<td><button id="mining" onclick="update_mining_points(-1)"><</button>
+			<td id="mining_points">5</td>
+			<td><button id="mining" onclick="update_mining_points(1)">></button></td></td>
+		</tr>
+		
+		<tr>
+			<td>Jump Strength</td>
+			<td><button id="jump" onclick="update_jump_points(-1)"><</button>
+			<td id="jump_points">5</td>
+			<td><button id="jump" onclick="update_jump_points(1)">></button></td></td>
+		</tr>
+		
+		<tr>
+			<td>Health</td>
+			<td><button id="health" onclick="update_health_points(-1)"><</button>
+			<td id="health_points">5</td>
+			<td><button id="health" onclick="update_health_points(1)">></button></td></td>
+		</tr>
+	</table>
+	
+	<p></p>
+	<button onclick="submit_points()">Submit</button>
+	
+	<br />
+	<br />
+	
+	<div id="commands" style="display:none;">
+		<p> Attack Damage: <code style="color:white;" id="dmg_code"></code></p>
+		<p> Attack Speed: <code style="color:white;" id="atk_speed_code"></code></p>
+		<p> Knockback: <code style="color:white;" id="kb_code"></code></p>
+		<p> Block Range: <code style="color:white;" id="b_range_code"></code></p>
+		<p> Entity Range: <code style="color:white;" id="e_range_code"></code></p>
+		<p> Mining Speed: <code style="color:white;" id="mining_code"></code></p>
+		<p> Jump Strength: <code style="color:white;" id="jump_code"></code></p>
+		<p> Fall Damage: <code style="color:white;" id="fall_code"></code></p>
+		<p> Health: <code style="color:white;" id="health_code"></code></p>
+	</div>
+</form>
+</body>
+</html>
