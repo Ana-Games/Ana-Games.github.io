@@ -11,6 +11,7 @@
          line-height: 1;
          text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
          letter-spacing: 0.125em;
+		 
          animation-duration: 0.01s;
          animation-name: textflicker;
          animation-iteration-count: infinite;
@@ -23,7 +24,8 @@
 
 table {
   border:1px solid #03fc52;
-  padding: 3px;
+  padding: 6px;
+  font-size:1.2em;
 }
 
   a {
@@ -114,5 +116,5 @@ table {
   opacity: 0;
   z-index: 2;
   pointer-events: none;
-  animation: flicker 0.15s infinite;
+  /* animation: flicker 0.15s infinite; */
 }
